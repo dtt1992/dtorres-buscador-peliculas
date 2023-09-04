@@ -1,4 +1,5 @@
 const API_KEY = '431e2afb'
+
 export const searchMovies = async ({ search }) => {
   if (search === '') return null
 

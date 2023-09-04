@@ -84,7 +84,9 @@ function App () {
 
       <main>
         {
-          loading ? <p>Cargando....</p> : <Movies movies={movies} />
+          loading
+            ? <p>Cargando....</p>
+            : <Movies movies={movies} />
         }
 
       </main>
